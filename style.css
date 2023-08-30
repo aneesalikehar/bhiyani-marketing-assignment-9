@@ -108,7 +108,7 @@
 .card-body>h5 {
     font-family: bebas;
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 1.50rem;
 }
 
 .card-text {
@@ -161,6 +161,7 @@ span {
 .footer-head>h1 {
     text-align: center;
     color: white;
+    font-size: 1.75rem;
 }
 
 .footer-head {
@@ -262,11 +263,11 @@ span {
     }
 
     .spn {
-        font-size: 1.50rem;
+        font-size: 1.25rem;
     }
 
     .spn1 {
-        font-size: 1.50rem;
+        font-size: 1rem;
     }
 
     .footer-para {
@@ -485,7 +486,7 @@ span {
     }
 
     .spn {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .spn1 {
@@ -668,13 +669,22 @@ iframe{
 
 @media only screen and (max-width: 600px){
     .fa-solid{
-        padding-left: 236px ;
+        padding-left: 45%;
     }
     .iframe{
         width: 100%;
     }
+    .contact-support{
+        text-align: center;
+    }
+    .footer-head>h1{
+        font-size: 1.50rem;
+    }
 }
 
+.fa-solid{
+    display: none;
+}
 
 
 .slider{
