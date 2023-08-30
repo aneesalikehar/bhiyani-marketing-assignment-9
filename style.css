@@ -1,0 +1,772 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bebus;
+    src: url(./fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+.sec-1 {
+    background-image: url(./images/main\ image.jpg);
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+}
+
+
+.nav-item {
+    padding-left: 40px;
+    font-size: 16px;
+    color: brown;
+}
+
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item .btn {
+    padding: 5px 40px;
+    border-radius: 0px;
+    border: 1px solid black;
+    color: #000;
+}
+
+
+
+
+.sec-2 {
+    margin-top: 5%;
+}
+
+.content-area>h1 {
+    font-family: bebas;
+    color: red;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.content-area>.para-one {
+    margin-top: 15px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.content-area>.para-2 {
+    color: gray;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+
+.wrapper>.carousel{
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10%;
+  padding: 10PX;
+  margin-bottom: 10%;
+}
+
+.carousel>img{
+    width: 380px;
+}
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px 0px;
+}
+.cardss {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: red;
+    transition: .5s ease-in-out;
+}
+.card:hover .card-body,.card:hover .card-text{
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.card {
+    border: none;
+    transition: .5s ease-in-out;
+}
+
+.fa-solid {
+    color: red;
+    font-size: 50px;
+}
+
+.card-body>h5 {
+    font-family: bebas;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.card-text {
+    color: gray;
+    width: 230px;
+    margin-top: 10px;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 20px;
+    background-color: #f0d374 !important;
+    border: none;
+    border-radius: 5ox;
+}
+
+.banner {
+    margin-top: 6%;
+    text-align: center;
+    font-family: bebas;
+    font-weight: 600;
+}
+
+.banner-h1 {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+.baner-img {
+    margin-top: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.baner-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer-head>h1 {
+    text-align: center;
+    color: white;
+}
+
+.footer-head {
+    font-family: bebas;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.spn {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 120px;
+    color: white;
+}
+
+.spn1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 70px;
+    color: white;
+}
+
+.form-group {
+    margin-top: 10%er;
+}
+
+.form-group>label {
+    font-size: 1.20rem;
+    font-weight: 600;
+    color: white;
+}
+
+.footer-para {
+    width: 60%;
+    text-align: center;
+    margin-top: 7%;
+    font-weight: bold;
+    color: white;
+}
+
+.form-button {
+    margin-top: 2%;
+}
+
+.form-button>button {
+    padding: 3px 40px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-group>input {
+    background-color: white;
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 1rem;
+    }
+
+    .sec-1 {
+        width: 100%;
+        height: 357px;
+    }
+
+    .sec-2 {
+        margin-top: auto;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+
+    .card-body {
+        width: 100%;
+    }
+
+    .card-body>h5 {
+        width: 100%;
+    }
+
+    .row>.cardss {
+        width: 50%;
+    }
+
+    .image-area>img {
+        width: 100%;
+    }
+
+    .footer-para {
+        width: 100%;
+    }
+
+    .spn {
+        font-size: 1.50rem;
+    }
+
+    .spn1 {
+        font-size: 1.50rem;
+    }
+
+    .footer-para {
+        margin-top: 0%;
+    }
+
+    .cardss {
+        width: 50%;
+    }
+} */
+
+
+/* .....................................About us.......................................... */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bebus;
+    src: url(./fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+/* .sec-1 {
+    background-image: url(./images/main\ image.jpg);
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+} */
+
+
+.nav-item {
+    padding-left: 46px;
+    font-size: 16px;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: black;
+    
+}
+
+.nav-item .btn {
+    padding: 5px 40px;
+    border-radius: 0px;
+    border: 1px solid black;
+    color: #000;
+}
+
+.about-h3{
+    text-align: center;
+    margin-top: 4%;
+}
+.about-h3>h3{
+    font-size: 1.50rem;
+    font-weight: 400;
+}
+
+.sec-about-2{
+    margin-top: 1%;
+}
+
+.about-h1{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.about-h1>h1{
+    font-weight: bold;
+    font-family: bebas;
+}
+.spn-1{
+    color: red;
+}
+
+.sec-3{
+    margin-top: 5%;
+}
+
+.text-area{
+    margin-top: 7%;
+}
+
+.text-area>h1{
+    color: red;
+    font-family: bebas;
+    font-weight: 500;
+    font-size: 2.30rem;
+    margin-top: 10%;
+}
+
+
+.text-area>p{
+    line-height: 18px;
+    margin-top: 20px;
+}
+.text-area>.para{
+    color: gray;
+}
+
+.text-area1{
+    margin-top: 20%;
+}
+.text-area2{
+   margin-top: 10%;
+}
+.text-area2>h1{
+    color: red;
+    font-family: bebas;
+    font-weight: 500;
+    font-size: 2.30rem;
+    margin-top: 10%;
+}
+
+.footer {
+    background-color: #000;
+    margin-top: 10%;
+}
+
+.footer-head>h1 {
+    text-align: center;
+    color: white;
+}
+
+.footer-head {
+    font-family: bebas;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.spn {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 120px;
+    color: white;
+}
+
+.spn1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 70px;
+    color: white;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-group>label {
+    font-size: 1.20rem;
+    font-weight: 600;
+    color: white;
+}
+
+.footer-para {
+    width: 60%;
+    text-align: center;
+    margin-top: 7%;
+    font-weight: bold;
+    color: white;
+}
+
+
+.form-button {
+    margin-top: 2%;
+}
+
+.form-button>button {
+    padding: 3px 40px;
+    color: white;
+    background-color: #f0d374;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-group>input {
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-area{
+        margin-top: 1%;
+    }
+    .text-area>h1{
+        margin-top: 1%;
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    .text-area>p{
+        line-height: 18px;
+        margin-top: 10px;
+    font-size: 0.75rem;
+    }
+
+    .text-area1{
+        margin-top: 7%;
+    }
+    .text-area2{
+        margin-top: 2px;
+    }
+    .text-area2>h1{
+        color: red;
+        font-family: bebas;
+        font-weight: 500;
+        font-size: 1.75rem;
+        margin-top: 3%;
+        text-align: center;
+    }
+    .text-area2>p{
+        font-size: 0.75rem;
+    }
+
+    
+    .footer-para {
+        width: 100%;
+    }
+
+    .spn {
+        font-size: 1.25rem;
+    }
+
+    .spn1 {
+        font-size: 1.25rem;
+    }
+
+    .footer-para {
+        margin-top: 0%;
+        font-size: 0.75rem;
+
+    }
+    .cardss {
+        width: 50%;
+    }
+} 
+/* 
+..............................Our Service........................... */
+
+.Our-Service{
+    margin-top: 3%;
+}
+
+.service-head{
+    text-align: center;
+    font-weight: bold;
+    font-family: bebas;
+}
+
+
+.Service-card{
+    display: flex;
+    margin-top: 1%;
+}
+
+
+.Card-one:active{
+    border: 1px solid gray;
+    background-color: brown;
+}
+
+.Card-one{
+     padding: 10px;
+}
+
+.Card-head>h1{
+    font-size: 1.50rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: bebas;
+}
+
+
+.Card-para>ul>li{
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    
+}
+
+.Card-two{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.Card-head>h1{
+    font-size: 1.50rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* ...........................................Our Team...................................... */
+
+
+
+.Our-Service{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.service-head1{
+    font-size: 2.50rem;
+    color: red;
+    font-family: bebas;
+    font-weight: 900;
+    text-align: center;
+}
+
+.images-team{
+  margin-top: 4%;
+}
+
+.images-2{
+    margin: auto;
+}
+
+.name{
+    text-align: center;
+    font-family: bebas;
+    font-weight: bold;
+}
+
+.team-banner{
+    margin-top: 8%;
+}
+
+.banner-head{
+    font-size: 3rem;
+    font-family: bebas;
+    font-weight: bold;
+}
+
+/* ......................................Contact us.............................................. */
+
+.contact{
+    margin-top: 4%;
+}
+
+.support{
+    margin-top: 4%;
+}
+
+
+.fa-solid{
+    color: black;
+    padding: 15px;
+    margin-bottom: 5px;
+    padding-left: 150px;
+    
+}
+
+.contact-support>h5{
+    margin: 3% 0%;
+    text-align: center;
+}
+
+.contact-para{
+    text-align: center;
+}
+.contact-para-1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.map{
+    margin-top: 5%;
+}
+
+iframe{
+    width: 100%;
+    height: 550px;
+}
+
+.navbar-toggler{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .fa-solid{
+        padding-left: 236px ;
+    }
+    .iframe{
+        width: 100%;
+    }
+}
+
+
+
+.slider{
+    padding: 30px;
+    background-color: #aaaa;
+}
+
+.slider .col-md-4{
+    padding: 20px;
+    text-align: center;
+}
+.slider img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+
+.mob{
+    display: none;
+}
+
+button.carousel-control-prev,button.carousel-control-next  {
+    width: 50px;
+    background: #ffc107;
+    height: 50px;
+    border-radius: 50%;
+    top: 40%;
+
+}
+
+.desktop.slider {
+    margin-top: 3%;
+}
+ 
+@media screen and (max-width:786px) {
+    .desktop{
+        display: none;
+    }
+    .mob{
+        display: block;
+        padding: 50px;
+    }
+    .mob img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    
+    h5.card-title {
+        height: 65px;
+    }
+
+    .nav-link-1{
+        color: white;
+    }
+}
+
+
+
+
+.swal-title {
+    font-family: Bebus;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
